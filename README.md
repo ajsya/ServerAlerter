@@ -16,8 +16,8 @@ pip install pynput
 ```
 pip install mcstatus
 ```
-Run the Python File
-Navigate your cursor over to the left side of the server you would like to join.
+Run the Python File <br />
+Navigate your cursor over to the left side of the server you would like to join in Minecraft.
 ## Credits
 Made by ajsya / SharkBaitBilly
 
