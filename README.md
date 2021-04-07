@@ -6,7 +6,9 @@ A simple Python script to automatically join full Minecraft servers during peak 
 [pynput](https://pypi.org/project/pynput/)**
 
 ## How to Run
-[Download the Python Script](#) <br />
+[Download and Install Python](https://www.python.org/) <br />
+[Download the Files](https://github.com/ajsya/ServerAlerter/archive/refs/heads/main.zip) <br />
+Unzip the Files <br />
 Install the Dependencies <br />
 ```
 pip install pynput
@@ -15,7 +17,7 @@ pip install pynput
 pip install mcstatus
 ```
 Run the Python File
-Move your mouse over your selected server in Minecraft
+Navigate your cursor over to the left side of the server you would like to join.
 ## Credits
 Made by ajsya / SharkBaitBilly
 
