@@ -1,4 +1,5 @@
 #Created by SharkBaitBilly
+#https://github.com/ajsya/ServerAlerter
 
 import time
 import requests
@@ -9,15 +10,15 @@ from pynput.mouse import Button, Controller
 SendDiscordMessage = False #Send a discord message when server open (True/False)
 DiscordWebhookURL = "" #Set a webhook url for the discord message to be sent to. Leave blank if SendDiscordMessage is set to False
 serverInput = input("Enter Server IP!")
-#serverInput = "" #OPTIONAL Enter a predefined server here and delete the line above
+#serverInput = "" #OPTIONAL Enter a predefined server here than delete the hashtag and line above
 
 mouse = Controller()
 server = MinecraftServer.lookup(serverInput)
 
 status = server.status()
 playerCount = status.players.online
-maxPlayerCount = status.players.max #EDIT LINE HERE TO MAXIUMUM PLAYER COUNT ROD
-print(playerCount)
+maxPlayerCount = status.players.max
+print("Minecraft Server Alerter \n \nCreated by SharkBaitBilly \nhttps://github.com/ajsya/ServerAlerter")
 
 while True:
     status = server.status()
@@ -26,7 +27,7 @@ while True:
     if playerCount < maxPlayerCount:
         print('Server Open! There are only {0} player(s) online!'.format(status.players.online))
         mouse.click(Button.right, 1)
-        if SendDiscordMessage = True:
+        if SendDiscordMessage == True:
             url = DiscordWebhookURL
             
             data = {
