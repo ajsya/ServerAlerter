@@ -2,11 +2,10 @@
 A simple Python script to automatically join full Minecraft servers during peak hours.
 
 ## Dependencies
-Make sure to have the latest versions installed of the following libraries!
-**[mcstatus](https://github.com/Dinnerbone/mcstatus) <br />
-[pynput](https://pypi.org/project/pynput/)
-[requests](https://pypi.org/project/requests/)
-**
+Make sure to have the latest versions installed of the following libraries! <br />
+  **[mcstatus](https://github.com/Dinnerbone/mcstatus)** <br />
+  **[pynput](https://pypi.org/project/pynput/)** <br />
+  **[requests](https://pypi.org/project/requests/)**
 
 ## How to Run
 [Download and Install Python](https://www.python.org/) <br />
